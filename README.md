@@ -3,12 +3,17 @@ Ever felt the need to perform a multiple tasks in a interval of your choice with
 
 
 # Features
-- Uses Ant Design Library for its UI components
-- Dropdown to change the interval of callback function
-- Switch to turn the auto callback on or off manually from user end
-- Shows the last call time (Last Synced)
-- Shows next call time (Next Update)
-- Will start and stop the timer to call the callback functions at component mounting and unmounting
+- Uses Ant Design Library for its UI components.
+- Dropdown to change the interval of callback function.
+- Switch to turn the auto callback on or off manually from user end.
+- Shows the last call time (Last Synced).
+- Shows next call time (Next Update).
+- Shows id timer is paused
+- Can Show loading spinner when a callback is being executed ( depending on isRefreshing property )
+- Timer remains off till all the functions are completely executed
+- Will start and stop the timer to call the callback functions at component mounting and unmounting.
+- Captures keydown and mousedown event.
+- Will stop the timer for next 2 seconds if user presses the key and mouse button and reset it.
 
 # Installation and usage
 ## Install antd
